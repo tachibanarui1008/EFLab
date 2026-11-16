@@ -1,0 +1,16 @@
+{
+  "name": "eflab-alpha-0-1",
+  "version": "0.1.0",
+  "description": "EFLab Alpha 0.1 Stock-Flow Consistent Macroeconomic Simulator",
+  "type": "module",
+  "scripts": {
+    "test": "node --import tsx --test 'tests/**/*.test.ts'",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0",
+    "vitest": "^2.1.0"
+  }
+}
